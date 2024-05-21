@@ -36,7 +36,7 @@ Fell free to make PR to add other frameworks or ORMs
 - By default `PORT` is configured on 8080, but you can specify in the `.env` file a different `PORT` if you like so.
 - If you want to have the documentation also updated then follow the next steps:
   - Install `swaggo` with `go install github.com/swaggo/swag/cmd/swag@latest`
-  - Run in terminal `swag init` which will update the swagger files in the `docs` directory.
+  - Run in terminal `swag init --parseDependency --parseInternal` which will update the swagger files in the `docs` directory.
 
 ### See examples as posts then duplicate it
 
